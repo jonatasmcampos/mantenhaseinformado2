@@ -1,0 +1,44 @@
+header {
+  min-height: 80vh;
+  margin-top: 10px;
+}
+
+.div-esquerda {
+  min-height: 75vh;
+  width: 40%;
+  background-color: #797979;
+  position: relative;
+}
+
+.div-esquerda > div {
+  min-height: 70vh;
+  width: 100%;
+  padding: 0 14px;
+  z-index: 10;
+  background-color: #EEE;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-esquerda > div p {
+  font-size: 2.05rem;
+}
+
+.div-direita {
+  min-height: 75vh;
+  width: 60%;
+  position: relative;
+}
+
+.div-direita > img {
+  height: 350px;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}/*# sourceMappingURL=Header.css.map */

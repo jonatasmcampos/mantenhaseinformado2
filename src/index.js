@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM  from 'react-dom'
-import Navbar from './components/navigationBar/Navbar'
+import Main from './Main'
 import "./index.css"
 
 ReactDOM.render(   
-        <Navbar/>
+        <Main/>
      , document.getElementById('root'))

@@ -1,5 +1,4 @@
 import React from "react"
-import Logo from "./../../images/fd.jpg"
 import "./Navbar.css"
 
 export default function Navbar() {
@@ -11,7 +10,7 @@ export default function Navbar() {
                     <a href=""><li>| Ferramentas Google |</li></a>
                     <a href=""><li>&nbsp;Goconqr</li></a>
                 </ul>
-                <img className="logo" src={Logo} alt="Logo do site" />
+                <h1 className="titulo">Mantenha-se<br/>informado</h1>
                 <ul className="nav-items center">
                     <a href=""><li>Trello&nbsp;</li></a>
                     <a href=""><li>| Google sala de aula |</li></a>

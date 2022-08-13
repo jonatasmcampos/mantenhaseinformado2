@@ -20,4 +20,10 @@
   text-decoration: none;
   color: #000;
   letter-spacing: 1px;
+}
+
+.titulo {
+  color: orangered;
+  letter-spacing: 1px;
+  text-align: center;
 }/*# sourceMappingURL=Navbar.css.map */
