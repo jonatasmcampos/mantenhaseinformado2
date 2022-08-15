@@ -1,16 +1,16 @@
-header{
+header {
     min-height: 80vh;
     margin-top: 10px;
 }
 
-.div-esquerda{
+.div-esquerda {
     min-height: 75vh;
     width: 40%;
     background-color: #797979;
     position: relative;
 }
 
-.div-esquerda > div{
+.div-esquerda>div {
     min-height: 70vh;
     width: 100%;
     padding: 0 14px;
@@ -24,19 +24,58 @@ header{
     align-items: center;
     justify-content: center;
 }
-.div-esquerda > div p{
+
+.div-esquerda>div p {
     font-size: 2.05rem;
 }
 
-.div-direita{
+.div-direita {
     min-height: 75vh;
     width: 60%;
     position: relative;
 }
-.div-direita > img{  
-    height: 350px;
+
+.div-direita>img {
+    height: 70%;
     width: 90%;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+.no-mobile{
+    display: flex;
+}
+.mobile{
+    display: none !important;
+}
+
+@media (max-width: 1154px) {
+    .no-mobile {
+        display: none;
+    }
+    .mobile{
+        display: flex !important;
+        width: 100%;
+    }
+    .div-imagem{
+        width: 90%;
+        position: relative;
+    }
+    .div-imagem > img {
+        height: 260px;
+        width: 100%;
+    }
+    .div-central{
+        position: absolute;
+        width: 80%;
+        top: 240px;
+        left: 10%;
+        background-color: #DDD;
+        border-radius: 7px;
+        text-align: center;
+        padding: 7px
+    }
+    .div-central > p{
+        font-size: 1.25rem;
+    }
 }
