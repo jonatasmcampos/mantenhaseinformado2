@@ -25,3 +25,62 @@
     letter-spacing: 1px;
     text-align: center;
 }
+
+.no-mobile{
+    display: flex;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 1154px){
+    .no-mobile{
+        display: none !important;
+    }
+    .mobile{
+        display: flex;
+    }
+    
+    .nav-items{
+        flex-direction: column;
+        background-color: #DDD;
+        padding: 17px;
+        width: 87% !important;
+        position: absolute;
+        z-index: 20;
+        bottom: 47px;
+    }
+
+    .titulo{
+        width: fit-content !important;
+        margin: 0 !important;
+        padding: 0 !important
+    }
+
+    .bt-menu-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95% !important;
+        position: absolute;
+        bottom: 20px;  
+    }
+
+    .bt-menu{        
+        height: fit-content;
+    }
+
+    .bt-menu i{        
+        font-size: 24px;
+    }
+
+    .bt-menu i:hover{        
+        color: orangered;
+    }
+
+    .nav-items > a{
+        margin-bottom: 7px;
+        font-size: 1.25rem;
+    }
+}
