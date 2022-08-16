@@ -48,8 +48,8 @@
     background-color: #DDD;
     padding: 17px;
     width: 87% !important;
-    position: absolute;
-    z-index: 20;
+    position: fixed;
+    z-index: 1000;
     bottom: 47px;
   }
   .titulo {
@@ -64,8 +64,10 @@
     align-items: center;
     justify-content: space-between;
     width: 95% !important;
-    position: absolute;
+    position: fixed;
     bottom: 20px;
+    z-index: 1100;
+    background-color: #FFF;
   }
   .bt-menu {
     height: -webkit-fit-content;

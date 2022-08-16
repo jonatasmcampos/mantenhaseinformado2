@@ -52,6 +52,9 @@ header {
 }
 
 @media (max-width: 1154px) {
+  header {
+    min-height: 65vh;
+  }
   .no-mobile {
     display: none;
   }
