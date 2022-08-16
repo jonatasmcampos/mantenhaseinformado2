@@ -47,7 +47,7 @@
     flex-direction: column;
     background-color: #DDD;
     padding: 17px;
-    width: 87% !important;
+    width: 86% !important;
     position: fixed;
     z-index: 1000;
     bottom: 47px;
@@ -63,11 +63,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 95% !important;
+    width: 92% !important;
     position: fixed;
-    bottom: 20px;
+    bottom: 10px;
     z-index: 1100;
-    background-color: #FFF;
+    background-color: #EEE;
+    padding: 10px 5px;
   }
   .bt-menu {
     height: -webkit-fit-content;

@@ -1,0 +1,42 @@
+.btnCard{
+    height: fit-content;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #fff;
+    padding: 5px 10px;
+}
+.btnCard:hover{
+    box-shadow: 1px 1px 7px 3px #000;
+}
+
+.zoomBtn{
+    background-color: #1893f8;
+}
+
+.googleMeetBtnY{
+    background-color: #ffba00;
+}
+.googleMeetBtnG{
+    background-color: #01a543;
+}
+.googleMeetBtnB{
+    background-color: #0927eb;
+}
+.googleMeetBtnR{
+    background-color: #ff2e00;
+}
+
+.microsoftTeamsBtn{
+    background-color: #001077;
+}
+
+.largerBtn{
+    width: 320px;
+}
+
+.btnTools{
+    background: orangered;
+}

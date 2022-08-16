@@ -12,7 +12,7 @@
   width: 90%;
   height: 70vh;
   background: #DDD;
-  margin: 50px auto 0;
+  margin: 10px auto 10px;
   word-break: break-all;
   border: 1px solid rgba(0, 0, 0, 0.274);
 }
@@ -68,7 +68,7 @@ button {
   background: white;
   padding: 20px;
   width: 96%;
-  height: 100%;
+  height: 90%;
   display: none;
   border: 1px solid rgba(0, 0, 0, 0.274);
 }
@@ -108,4 +108,13 @@ button {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
+}
+
+.btnDiv {
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnDiv2 {
+  flex-wrap: wrap;
 }/*# sourceMappingURL=Principal.css.map */

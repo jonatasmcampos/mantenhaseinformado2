@@ -1,10 +1,12 @@
 a{
     font-size: 1.1rem;
     letter-spacing: 1px;
+    color: #000;
+    text-decoration: none;
 }
 
 a:hover{
-    color: orangered;
+    color: orangered !important;
 }
 
 p{
