@@ -186,6 +186,7 @@ export default function Principal() {
         <>
             <div className="center principal-center">
                 <br /> <br />
+                <div id="videoconferencia"></div>
                 <h1 className="titulo-secao">Videoconferência</h1>
                 <div className="container">
                     <div className="bloc-tabs">
@@ -300,6 +301,7 @@ export default function Principal() {
                     </div>
                 </div>
                 <br /><br />
+                <div id="ferramentasGoogle"></div>
                 <h1 className="titulo-secao">Ferramentas Google</h1>
                 <div className="container2">
                     <div className='item-carousel-mobile'>
@@ -534,6 +536,7 @@ export default function Principal() {
                 <div className="outras-ferramentas">
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
+                            <div id="goConqr"></div>
                             {/* CARD DO GOCONQR */}
                             <Card className="card hh">
                                 <Card.Img src={imgGoConqr} class="card-img-top img-bootstrap" alt="Imagem do GoConqr" />
@@ -554,6 +557,7 @@ export default function Principal() {
                             </Card>
                         </div>
                         <div class="col">
+                            <div id="trello"></div>
                             {/* CARD DO TRELLO */}
                             <Card className="card hh">
                                 <Card.Img src={imgTrello} class="card-img-top img-bootstrap" alt="Imagem do trello" />
@@ -578,11 +582,12 @@ export default function Principal() {
                             </Card>
                         </div>
                         <div class="col">
+                            <div id="classroom"></div>
                             {/* CARD DO GOOGLE CLASSROOM */}
                             <Card className="card">
                                 <Card.Img src={imgGoogleClassroom} class="card-img-top img-bootstrap" alt="Imagem do google classroom" />
                                 <Card.Body className="card-body">
-                                    <Card.Title className="card-title">Google Classroom</Card.Title>
+                                    <Card.Title className="card-title">Google Sala de aula</Card.Title>
                                     <Card.Text>
                                         <small className="card-text">
                                             &nbsp;&nbsp;Esta plataforma te da a possibilidade de gerenciar atividades, avaliações e
@@ -606,6 +611,7 @@ export default function Principal() {
                             </Card>
                         </div>
                         <div class="col">
+                            <div id="escolaDigital"></div>
                             {/* CARD DO ESCOLA DIGITAL */}
                             <Card className="card uu">
                                 <Card.Img src={imgEscolaDigital} class="card-img-top img-bootstrap" alt="Imagem do google classroom" />

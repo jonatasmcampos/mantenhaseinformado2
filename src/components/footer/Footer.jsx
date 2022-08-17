@@ -2,7 +2,7 @@ import './Footer.css'
 
 export default function Footer() {
     return (
-        <footer>
+        <footer id="rodape">
             <hr className='headerHR'/>
             <div className='footer'>
                 <p>
