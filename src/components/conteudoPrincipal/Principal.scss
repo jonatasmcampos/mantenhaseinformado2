@@ -10,7 +10,7 @@
     flex-direction: column;
     position: relative;
     width: 90%;
-    height: 70vh;
+    height: fit-content;
     background: #DDD;
     margin: 10px auto 10px;
     word-break: break-all;
@@ -98,22 +98,128 @@ button {
     align-items: center;
 }
 
-.esconderIcone{
+.esconderIcone {
     display: none !important;
 }
 
-.titulo-secao{
+.titulo-secao {
     font-size: 2.2rem;
-    background: linear-gradient(to right,  rgb(253, 144, 104), 20%, rgb(250, 119, 71), orangered);
+    background: linear-gradient(to right, rgb(253, 144, 104), 20%, rgb(250, 119, 71), orangered);
     background-clip: text;
     color: transparent;
 }
 
-.btnDiv{
+.btnDiv {
     flex-direction: column;
     align-items: center;
 }
 
-.btnDiv2{
+.btnDiv2 {
     flex-wrap: wrap;
+}
+
+.container2{
+    margin: 20px 0 55px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.centro{
+    align-self: center;
+    margin-bottom: 10px;
+}
+.divTools{
+    margin: 30px 0;
+}
+.divImageTools{
+    width: 56%;
+    height: 57%;
+    float: right;
+    margin: 0 0 0 20px;
+}
+.divImageToolsLeft{
+    width: 67%;
+    height: 57%;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.imgTools{
+    height: 100%;
+    width: 100%;
+}
+.divToolsBtn{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 30px 0;
+}
+.logoOnTheLeft{
+    float: left;
+    margin: 0 15px 15px 0;
+}
+.logoOnTheRight{
+    float: right;
+    margin: 0 0 15px 15px;
+}
+.divToolsLinks{
+    margin: 15px 0;
+}
+.divToolsLinks a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: orangered;
+}
+.divToolsLinks a:hover{
+    text-decoration: underline #000;
+    font-weight: bold;
+    color: black;
+}
+.divToolsLinks a:hover span{
+    color: #000;
+}
+
+.divWithCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.divCard{
+    border: 3px solid;
+    border-color: #ffba00 #01a543 #0927eb #ff2e00;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    margin: 10px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+}
+.item-carousel{
+    display: flex;
+}
+.item-carousel-mobile{
+    display: none;
+    width: 100%;
+}
+.item-carousel-web{
+    display: block;
+    width: 100%;
+}
+.divCardBtn{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (max-width: 1154px){
+    .item-carousel-mobile{
+        display: block !important;
+        width: 100%;
+    }
+    .item-carousel-web{
+        display: none !important;
+        width: 100%;
+    }
 }
