@@ -1,12 +1,18 @@
 a{
     font-size: 1.1rem;
     letter-spacing: 1px;
-    color: #000;
+    color: #000 !important;
     text-decoration: none;
 }
 
 a:hover{
     color: orangered !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 2rem;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 p{

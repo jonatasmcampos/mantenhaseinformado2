@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import ReactElasticCarousel from 'react-elastic-carousel'
-import Card from './../cardGoogleTools/Card'
+import Box from './../cardGoogleTools/Card'
 import Item from './../Item'
 import "./Principal.css"
 import logoZoom from "./../../images/logoZoom.png"
@@ -17,6 +17,13 @@ import LogoGDocs from './../../images/logoGoogleDocs.png'
 import LogoGSheets from './../../images/logoGoogleSheets.png'
 import LogoGSlides from './../../images/logoGoogleSlides.png'
 import LogoGForms from './../../images/logoGoogleForms.png'
+import imgGoConqr from './../../images/imgGoConqr.png'
+import imgGoogleClassroom from './../../images/imgGoogleClassroom.png'
+import imgEscolaDigital from './../../images/imgEscolaDigital.png'
+import imgTrello from './../../images/imgTrello.png'
+
+import { CardGroup, Card } from 'react-bootstrap'
+import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 import Button from './../button/Button'
 
@@ -298,7 +305,7 @@ export default function Principal() {
                     <div className='item-carousel-mobile'>
                         <ReactElasticCarousel>
                             <Item>
-                                <Card
+                                <Box
                                     logoPath={LogoGDocs}
                                     logoAlt='Logo do Google Documentos'
                                     label='Com o Documentos, você pode redigir relatórios, criar propostas de
@@ -311,7 +318,7 @@ export default function Principal() {
                                 </div>
                             </Item>
                             <Item>
-                                <Card
+                                <Box
                                     logoPath={LogoGSheets}
                                     logoAlt='Logo do Google Planilhas'
                                     label='Com o Planilhas, você pode gerenciar listas de tarefas, criar planos de
@@ -323,7 +330,7 @@ export default function Principal() {
                                 </div>
                             </Item>
                             <Item>
-                                <Card
+                                <Box
                                     logoPath={LogoGSlides}
                                     logoAlt='Logo do Google Apresentações'
                                     label='No Apresentações, você pode criar apresentações de argumento de
@@ -336,7 +343,7 @@ export default function Principal() {
                                 </div>
                             </Item>
                             <Item>
-                                <Card
+                                <Box
                                     logoPath={LogoGForms}
                                     logoAlt='Logo do Google Formulários'
                                     label='No Formulários, você pode gerenciar inscrições em eventos, criar testes,
@@ -351,7 +358,7 @@ export default function Principal() {
 
 
                             <Item>
-                                <Card
+                                <Box
                                     logoPath={LogoGmail}
                                     logoAlt='Logo do Gmail'
                                     label='No Gmail, você pode enviar e pesquisar mensagens, organizar sua
@@ -364,7 +371,7 @@ export default function Principal() {
                             </Item>
 
                             <Item>
-                                <Card
+                                <Box
                                     logoPath={LogoGCalendar}
                                     logoAlt='Logo do Google Agenda'
                                     label='No Agenda, você pode acompanhar eventos importantes, compartilhar seus
@@ -377,7 +384,7 @@ export default function Principal() {
                             </Item>
 
                             <Item>
-                                <Card
+                                <Box
                                     logoPath={LogoGDrive}
                                     logoAlt='Logo do Google Drive'
                                     label='No Drive, você mantém tudo em um só lugar, visualiza diferentes
@@ -390,7 +397,7 @@ export default function Principal() {
                                 </div>
                             </Item>
                             <Item>
-                                <Card
+                                <Box
                                     logoPath={LogoGChat}
                                     logoAlt='Logo do Google Chat'
                                     label='No Chat, você pode fazer perguntas rápidas, colaborar em chats em
@@ -411,7 +418,7 @@ export default function Principal() {
 
                             <div className='item-carousel'>
                                 <Item>
-                                    <Card
+                                    <Box
                                         logoPath={LogoGDocs}
                                         logoAlt='Logo do Google Documentos'
                                         label='Com o Documentos, você pode redigir relatórios, criar propostas de
@@ -424,7 +431,7 @@ export default function Principal() {
                                     </div>
                                 </Item>
                                 <Item>
-                                    <Card
+                                    <Box
                                         logoPath={LogoGSheets}
                                         logoAlt='Logo do Google Planilhas'
                                         label='Com o Planilhas, você pode gerenciar listas de tarefas, criar planos de
@@ -436,7 +443,7 @@ export default function Principal() {
                                     </div>
                                 </Item>
                                 <Item>
-                                    <Card
+                                    <Box
                                         logoPath={LogoGSlides}
                                         logoAlt='Logo do Google Apresentações'
                                         label='No Apresentações, você pode criar apresentações de argumento de
@@ -449,7 +456,7 @@ export default function Principal() {
                                     </div>
                                 </Item>
                                 <Item>
-                                    <Card
+                                    <Box
                                         logoPath={LogoGForms}
                                         logoAlt='Logo do Google Formulários'
                                         label='No Formulários, você pode gerenciar inscrições em eventos, criar testes,
@@ -465,7 +472,7 @@ export default function Principal() {
                             <div className='item-carousel'>
 
                                 <Item>
-                                    <Card
+                                    <Box
                                         logoPath={LogoGmail}
                                         logoAlt='Logo do Gmail'
                                         label='No Gmail, você pode enviar e pesquisar mensagens, organizar sua
@@ -478,7 +485,7 @@ export default function Principal() {
                                 </Item>
 
                                 <Item>
-                                    <Card
+                                    <Box
                                         logoPath={LogoGCalendar}
                                         logoAlt='Logo do Google Agenda'
                                         label='No Agenda, você pode acompanhar eventos importantes, compartilhar seus
@@ -491,7 +498,7 @@ export default function Principal() {
                                 </Item>
 
                                 <Item>
-                                    <Card
+                                    <Box
                                         logoPath={LogoGDrive}
                                         logoAlt='Logo do Google Drive'
                                         label='No Drive, você mantém tudo em um só lugar, visualiza diferentes
@@ -504,7 +511,7 @@ export default function Principal() {
                                     </div>
                                 </Item>
                                 <Item>
-                                    <Card
+                                    <Box
                                         logoPath={LogoGChat}
                                         logoAlt='Logo do Google Chat'
                                         label='No Chat, você pode fazer perguntas rápidas, colaborar em chats em
@@ -521,12 +528,123 @@ export default function Principal() {
                     </div>
                 </div>
 
-
-
-
-
-                
-
+                {/* OUTRAS FERRAMENTAS */}
+                <h1 className="titulo-secao">Outras ferramentas</h1>
+                <br />
+                <div className="outras-ferramentas">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            {/* CARD DO GOCONQR */}
+                            <Card className="card hh">
+                                <Card.Img src={imgGoConqr} class="card-img-top img-bootstrap" alt="Imagem do GoConqr" />
+                                <Card.Body className="card-body">
+                                    <Card.Title className="card-title">GoConqr</Card.Title>
+                                    <Card.Text>
+                                        <small className="card-text">
+                                            &nbsp;&nbsp;Fornece materiais como mapas mentais, flashcards, quizzes e slides. Também há recursos prontos, os quais você também poderá utilizar.
+                                            <br />
+                                            &nbsp;&nbsp;Esta ferramenta possui uma biblioteca com 9 milhões de materiais criados pelos membros, podendo ser usados de forma gratuita! Também é possível acompanhar o progresso dos estudantes, analisando o resultado obtido com cada recurso.
+                                        </small>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer className="card-footer btn-card">
+                                    <Button id='11' btnTools label='Ir para o site' click={toWhere} />
+                                    <Button id='12' btnTools label='Como usar as ferramentas do GoConqr' click={toWhere} />
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div class="col">
+                            {/* CARD DO TRELLO */}
+                            <Card className="card hh">
+                                <Card.Img src={imgTrello} class="card-img-top img-bootstrap" alt="Imagem do trello" />
+                                <Card.Body className="card-body">
+                                    <Card.Title className="card-title">Trello</Card.Title>
+                                    <Card.Text>
+                                        <small className="card-text">
+                                            &nbsp;&nbsp;Trello é ótimo no gerenciamento de duas atividades. Nela, você consegue criar
+                                            cards com as tarefas, colocar seus prazos de entrega, marcá-las de acordo com etapas,
+                                            anexar arquivos também é possível, colocar etiquetas com o estado das atividades
+                                            e adicionar membros.<br/>&nbsp;&nbsp; Você ainda pode ter uma parte que contenha
+                                            somente suas atividades e outras para cada uma das suas turmas. Administrar trabalhos
+                                            em grupo, interdisciplinares e quaisquer outras entregas que os alunos tenham que
+                                            fazer.
+                                        </small>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer className="card-footer btn-card">
+                                    <Button id='13' btnTools label='Ir para o site' click={toWhere} />
+                                    <Button id='14' btnTools label='Guia Trello' click={toWhere} />
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div class="col">
+                            {/* CARD DO GOOGLE CLASSROOM */}
+                            <Card className="card">
+                                <Card.Img src={imgGoogleClassroom} class="card-img-top img-bootstrap" alt="Imagem do google classroom" />
+                                <Card.Body className="card-body">
+                                    <Card.Title className="card-title">Google Classroom</Card.Title>
+                                    <Card.Text>
+                                        <small className="card-text">
+                                            &nbsp;&nbsp;Esta plataforma te da a possibilidade de gerenciar atividades, avaliações e
+                                            conteúdos iguais ao de uma sala de aula. Você apenas precisa criar uma classe e
+                                            adicionar os alunos via e-mail e começar os trabalhos. É possível anexar links,
+                                            arquivos, enviar e receber os trabalhos. Você pode usar o Google Sala
+                                            de Aula na sua escola para simplificar as atividades, aumentar a colaboração
+                                            e melhorar a comunicação.
+                                        </small>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer className="btn-card">
+                                    <Button id='15' btnTools label='Ir para o site' click={toWhere} />
+                                    <Button id='16' btnTools label='Central de Ajuda' click={toWhere} />
+                                </Card.Footer>
+                                <Card.Footer>
+                                    <a href="https://support.google.com/edu/classroom/answer/6020273?hl=pt-BR&ref_topic=9049835" target="_blank" rel="noreferrer"><span>►</span> Criar, participar e organizar suas turmas.</a><br />
+                                    <a href="https://support.google.com/edu/classroom/answer/6020265?hl=pt-BR&ref_topic=9049978" target="_blank" rel="noreferrer"><span>►</span> Criar, acompanhar e atribuir nota às atividades.</a><br />
+                                    <a href="https://support.google.com/edu/classroom/answer/6025210?hl=pt-BR&ref_topic=6024979" target="_blank" rel="noreferrer"><span>►</span> Comunicação com a turma e os responsáveis.</a><br />
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div class="col">
+                            {/* CARD DO ESCOLA DIGITAL */}
+                            <Card className="card uu">
+                                <Card.Img src={imgEscolaDigital} class="card-img-top img-bootstrap" alt="Imagem do google classroom" />
+                                <Card.Body className="card-body">
+                                    <Card.Title className="card-title">Escola digital</Card.Title>
+                                    <Card.Text>
+                                        <small className="card-text">
+                                            &nbsp;&nbsp;É uma plataforma gratuita de busca que oferece a professores, gestores e
+                                            redes de ensino mais de 30 mil recursos digitais de aprendizagem, que
+                                            proporcionam interatividade, dinamismo e inovação às práticas pedagógicas!<br /><br />
+                                            <b>Quais são os principais benefícios da plataforma?</b><br />
+                                            - Apoia as práticas pedagógicas;<br />
+                                            - Desenvolve os professores e gestores para o uso da
+                                            tecnologia em sala de aula;<br />
+                                            - Oferece um acervo diferenciado de conteúdos e
+                                            formatos;<br />
+                                            - Possui planos de aula e objetos digitais de aprendizagem
+                                            (ODAs) alinhados à BNCC.<br /><br /><br />
+                                            <b>Que tipos de materiais estão disponíveis na Escola Digital?</b> <br />
+                                            &nbsp;&nbsp;A Escola Digital funciona como um amplo repositório, organizado com base nos
+                                            parâmetros curriculares nacionais. São vídeos, plataformas, games, animações,
+                                            videoaulas, infográficos, mapas, entre outros, categorizados por série, disciplina,
+                                            tema, tipo de mídia, idioma, versão on-line e off-line, licença de uso, se possuem
+                                            ferramentas de acessibilidade, entre outras especificidades.<br /> &nbsp;&nbsp;O site também indica
+                                            recursos digitais capazes de apoiar a criação de novos objetos de aprendizagem,
+                                            o trabalho com temas transversais e a realização de projetos na comunidade, entre
+                                            outras possibilidades educativas. Todos os links dos recursos indicados levam
+                                            diretamente ao site de origem do recurso.
+                                        </small>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer className="btn-card">
+                                    <Button id='25' btnTools label='Ir para o site' click={toWhere} />
+                                    <Button id='26' btnTools label='Central de Ajuda' click={toWhere} />
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
