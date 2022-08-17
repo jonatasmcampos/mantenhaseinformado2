@@ -1,0 +1,14 @@
+.footer {
+  background: linear-gradient(to bottom, #fff, 60%, #a9a9a9);
+  padding: 150px 20px 150px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer p {
+  width: 445px;
+  font-size: 0.95rem;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=Footer.css.map */
