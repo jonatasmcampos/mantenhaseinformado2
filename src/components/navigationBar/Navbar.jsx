@@ -6,6 +6,7 @@ export default function Navbar() {
     const [iconeMenu, setIconeMenu] = useState(true);
     return (
         <>
+            <div id="topo"></div>
             {/* EXIBIÇÃO WEB */}
             <nav className="center navigationbar no-mobile">
                 <ul className="nav-items center no-mobile">

@@ -5,7 +5,6 @@ import logo from "./../../images/logo2.jpg"
 export default function Header() {
     return (
         <>
-            <div id="topo"></div>
             <header className="center">
                 {/* EXIBIÇÃO PARA WEB */}
                 <div className="div-esquerda no-mobile">

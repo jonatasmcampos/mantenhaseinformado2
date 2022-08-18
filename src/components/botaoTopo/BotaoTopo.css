@@ -1,0 +1,13 @@
+.btn-topo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: orangered;
+  border-radius: 27px;
+  padding: 3px;
+}
+
+.btn-topo i {
+  font-size: 40px;
+  color: #FFF;
+}/*# sourceMappingURL=BotaoTopo.css.map */
