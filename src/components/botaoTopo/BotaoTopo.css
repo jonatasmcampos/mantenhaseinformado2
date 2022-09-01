@@ -2,12 +2,17 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: orangered;
+  background-color: grey;
   border-radius: 27px;
   padding: 3px;
+  box-shadow: 0 0 10px black;
 }
 
 .btn-topo i {
   font-size: 40px;
   color: #FFF;
+}
+
+.btn-topo:hover {
+  background-color: orangered !important;
 }/*# sourceMappingURL=BotaoTopo.css.map */
