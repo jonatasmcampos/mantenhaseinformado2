@@ -229,6 +229,7 @@ export default function Principal() {
                                 <Button zoomBtn id='1' label="Ir para o Zoom" click={toWhere} /> <br />
                                 <Button zoomBtn largerBtn id='2' label="Capacitação para usuários Zoom" click={toWhere} /> <br />
                                 <Button zoomBtn id='3' label="Central de Ajuda" click={toWhere} />
+                                <a href="/nav.html" className="entrarReuniao">Entrar em um reunião</a>
                             </div>
                             <div className="linksDiv">
                                 <hr />
