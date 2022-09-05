@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mantenhaseinformado2/static/css/main.da5d9396.css",
+    "main.js": "/mantenhaseinformado2/static/js/main.db63e371.js",
+    "static/media/imgTrello.png": "/mantenhaseinformado2/static/media/imgTrello.bf1f3cc540a82c458af7.png",
+    "static/media/imgGoogleClassroom.png": "/mantenhaseinformado2/static/media/imgGoogleClassroom.2911d8be1e0244cb6fd2.png",
+    "static/media/logo2.jpg": "/mantenhaseinformado2/static/media/logo2.62e294e842a7feffa92d.jpg",
+    "static/media/imgGoConqr.png": "/mantenhaseinformado2/static/media/imgGoConqr.4146088843f8e1da13d7.png",
+    "static/media/imgEscolaDigital.png": "/mantenhaseinformado2/static/media/imgEscolaDigital.c0d0dcf5966e1f5d6130.png",
+    "index.html": "/mantenhaseinformado2/index.html",
+    "main.da5d9396.css.map": "/mantenhaseinformado2/static/css/main.da5d9396.css.map",
+    "main.db63e371.js.map": "/mantenhaseinformado2/static/js/main.db63e371.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da5d9396.css",
+    "static/js/main.db63e371.js"
+  ]
+}
