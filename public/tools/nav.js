@@ -145,14 +145,14 @@ function websdkready() {
         if (document.getElementById('demoType').value === 'cdn') {
           var joinUrl =
           testTool.getCurrentDomain() +
-          "/cdn.html?" +
+          "/mantenhaseinformado2/cdn.html?" +
           testTool.serialize(meetingConfig);
           document.getElementById('copy_link_value').setAttribute('link', joinUrl);
           copyToClipboard('copy_link_value');
         } else{
           var joinUrl =
           testTool.getCurrentDomain() +
-          "/index.html?" +
+          "/mantenhaseinformado2/index.html?" +
           testTool.serialize(meetingConfig);
           document.getElementById('copy_link_value').setAttribute('link', joinUrl);
           copyToClipboard('copy_link_value');
