@@ -1,7 +1,7 @@
 {
   "name": "mantenhaseinformado2",
-  "version": "0.1.2",
-  "homepage": "https://jonatasmcampos.github.io/mantenhaseinformado2/",
+  "version": "0.1.4",
+  "homepage": "mantenhaseinformado2/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.6.2",

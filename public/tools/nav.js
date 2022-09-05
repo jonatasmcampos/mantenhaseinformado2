@@ -105,11 +105,11 @@ function websdkready() {
           meetingConfig.signature = res;
           meetingConfig.sdkKey = SDK_KEY;
           if (document.getElementById('demoType').value === 'cdn') {
-          var joinUrl = "/cdn.html?" + testTool.serialize(meetingConfig);
+          var joinUrl = "/mantenhaseinformado2/cdn.html?" + testTool.serialize(meetingConfig);
           console.log(joinUrl);
           window.open(joinUrl, "_blank");
           } else {
-            var joinUrl = "/index.html?" + testTool.serialize(meetingConfig);
+            var joinUrl = "/mantenhaseinformado2/index.html?" + testTool.serialize(meetingConfig);
             console.log(joinUrl);
             window.open(joinUrl, "_blank");
           }
