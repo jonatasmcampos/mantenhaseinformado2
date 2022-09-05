@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mantenhaseinformado2/static/css/main.da5d9396.css",
+    "main.css": "/mantenhaseinformado2/static/css/main.59d2d75f.css",
     "main.js": "/mantenhaseinformado2/static/js/main.a14475df.js",
     "static/media/imgTrello.png": "/mantenhaseinformado2/static/media/imgTrello.bf1f3cc540a82c458af7.png",
     "static/media/imgGoogleClassroom.png": "/mantenhaseinformado2/static/media/imgGoogleClassroom.2911d8be1e0244cb6fd2.png",
@@ -8,11 +8,11 @@
     "static/media/imgGoConqr.png": "/mantenhaseinformado2/static/media/imgGoConqr.4146088843f8e1da13d7.png",
     "static/media/imgEscolaDigital.png": "/mantenhaseinformado2/static/media/imgEscolaDigital.c0d0dcf5966e1f5d6130.png",
     "index.html": "/mantenhaseinformado2/index.html",
-    "main.da5d9396.css.map": "/mantenhaseinformado2/static/css/main.da5d9396.css.map",
+    "main.59d2d75f.css.map": "/mantenhaseinformado2/static/css/main.59d2d75f.css.map",
     "main.a14475df.js.map": "/mantenhaseinformado2/static/js/main.a14475df.js.map"
   },
   "entrypoints": [
-    "static/css/main.da5d9396.css",
+    "static/css/main.59d2d75f.css",
     "static/js/main.a14475df.js"
   ]
 }
