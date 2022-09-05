@@ -1,6 +1,7 @@
 {
   "name": "mantenhaseinformado2",
   "version": "0.1.0",
+  "homepage": "https://jonatasmcampos.github.io/mantenhaseinformado2/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
@@ -9,17 +10,17 @@
     "@testing-library/user-event": "^12.8.3",
     "@zoomus/websdk": "^2.7.0",
     "antd": "^4.14.1",
+    "bootstrap": "^5.2.0",
     "classnames": "^2.2.6",
     "crypto-js": "^4.0.0",
     "immer": "^8.0.1",
     "js-base64": "^3.6.0",
     "jsrsasign": "^10.3.0",
-    "react-router-dom": "^5.2.0",
-    "bootstrap": "^5.2.0",
     "react": "^17.0.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^17.0.0",
     "react-elastic-carousel": "^0.11.5",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
@@ -28,12 +29,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      
-    ]
+    "extends": []
   },
   "browserslist": {
     "production": [
@@ -60,6 +61,7 @@
     "@typescript-eslint/parser": "^4.19.0",
     "copy-webpack-plugin": "6.2.1",
     "customize-cra": "1.0.0",
+    "gh-pages": "^4.0.0",
     "react-app-rewired": "2.1.8",
     "sass": "1.32.8",
     "sass-loader": "10.1.1",
