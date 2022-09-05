@@ -15,4 +15,11 @@
 
 .btn-topo:hover {
   background-color: orangered !important;
+}
+
+@media (max-width: 1154px) {
+  .btn-topo {
+    bottom: 70px !important;
+    right: 20px;
+  }
 }/*# sourceMappingURL=BotaoTopo.css.map */
